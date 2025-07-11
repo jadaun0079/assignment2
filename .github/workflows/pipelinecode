@@ -8,7 +8,7 @@ pipeline {
   stages {
     stage('Clone') {
       steps {
-        git 'https://github.com/your-username/static-website.git'
+        git 'https://github.com/jadaun0079/static-website.git'
       }
     }
     stage('Deploy to S3') {
